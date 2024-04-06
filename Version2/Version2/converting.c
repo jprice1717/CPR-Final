@@ -21,7 +21,7 @@ void converting(void) {
 
 // V2
 	printf("*** Start of Converting Strings to Double Demo ***\n");
-	chat doubleString[BUFFER_SIZE];
+	char doubleString[BUFFER_SIZE];
 	double doubleNumber;
 	do {
 		printf("Type the double numeric string (q - to quit):\n");
