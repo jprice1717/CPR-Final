@@ -29,7 +29,7 @@ void converting(void) {
 		doubleString[strlen(doubleString) - 1] = '\0';
 		if ((strcmp(doubleString, "q") != 0)) {
 			doubleNumber = atof(doubleString);
-			printf("Converted number is %d\n", doubleNumber);
+			printf("Converted number is %f\n", doubleNumber);
 		}
 	} while (strcmp(doubleString, "q") != 0);
 	printf("*** End of Converting Strings to double Demo ***\n\n");
