@@ -59,7 +59,7 @@ void manipulating(void) {
 		fgets(haystack, BUFFER_SIZE, stdin);
 		haystack[strlen(haystack) - 1] = '\0';
 		if (strcmp(haystack, "q") != 0) {
-			printf("Tyoe the substring:\n");
+			printf("Type the substring:\n");
 			fgets(needle, BUFFER_SIZE, stdin);
 			needle[strlen(needle) - 1] = '\0';
 			occurence = strstr(haystack, needle);
