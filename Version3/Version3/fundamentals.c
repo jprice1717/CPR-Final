@@ -48,7 +48,7 @@ void fundamentals(void) {
 	do {
 		destination[0] = '\0';
 		printf("Destination string is reset to empty\n");
-		printf("Tye the source string (q - to quit):\n");
+		printf("Type the source string (q - to quit):\n");
 		fgets(source, BUFFER_SIZE, stdin);
 		source[strlen(source) - 1] = '\0';
 		if (strcmp(source, "q") != 0); {
