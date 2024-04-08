@@ -43,7 +43,7 @@ void converting(void) {
 		fgets(longString, BUFFER_SIZE, stdin);
 		longString[strlen(longString) - 1] = '\0';
 		if ((strcmp(longString, "q") != 0)) {
-			longNumber = atof(longString);
+			longNumber = atol(longString);
 			printf("Converted number is %ld\n", longNumber);
 		}
 	} while (strcmp(longString, "q") != 0);
