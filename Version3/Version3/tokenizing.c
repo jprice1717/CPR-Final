@@ -57,7 +57,7 @@ void tokenizing(void) {
 			nextSentence = strtok(sentences, ".");
 			sentencesCounter = 1;
 			while (nextSentence) {
-				printf("Phrase #%d is \'%s\'\n", sentencesCounter++, nextSentence);
+				printf("Sentence #%d is \'%s\'\n", sentencesCounter++, nextSentence);
 				nextSentence = strtok(NULL, ".");
 			}
 		}
